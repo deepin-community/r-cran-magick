@@ -1,5 +1,130 @@
-template-repository (1.0-1) unstable; urgency=medium
+r-cran-magick (2.8.5+dfsg-1) unstable; urgency=medium
 
-  * Initial release
+  * Team upload.
+  * New upstream version
 
- -- Tsic404 <liuheng@deepin.org>  Sat, 28 Jan 2023 13:46:49 +0800
+ -- Charles Plessy <plessy@debian.org>  Thu, 03 Oct 2024 08:54:21 +0900
+
+r-cran-magick (2.8.3+dfsg-1) unstable; urgency=medium
+
+  * Team upload.
+  * New upstream version
+  * Standards-Version: 4.7.0 (routine-update)
+
+ -- Charles Plessy <plessy@debian.org>  Wed, 19 Jun 2024 08:49:35 +0900
+
+r-cran-magick (2.8.2+dfsg-1) unstable; urgency=medium
+
+  * New upstream version
+
+ -- Andreas Tille <tille@debian.org>  Mon, 08 Jan 2024 21:14:20 +0100
+
+r-cran-magick (2.8.1+dfsg-1) unstable; urgency=medium
+
+  * New upstream version
+
+ -- Andreas Tille <tille@debian.org>  Fri, 27 Oct 2023 11:40:51 +0200
+
+r-cran-magick (2.8.0+dfsg-1) unstable; urgency=medium
+
+  * New upstream version
+
+ -- Andreas Tille <tille@debian.org>  Sat, 14 Oct 2023 08:02:37 +0200
+
+r-cran-magick (2.7.5+dfsg-1) unstable; urgency=medium
+
+  * New upstream version
+
+ -- Andreas Tille <tille@debian.org>  Fri, 18 Aug 2023 22:55:56 +0200
+
+r-cran-magick (2.7.4+dfsg-2) unstable; urgency=medium
+
+  * Rebuild with r-graphics-engine set by r-base
+
+ -- Andreas Tille <tille@debian.org>  Thu, 06 Jul 2023 09:18:56 +0200
+
+r-cran-magick (2.7.4+dfsg-1) unstable; urgency=medium
+
+  * New upstream version
+  * Standards-Version: 4.6.2 (routine-update)
+  * dh-update-R to update Build-Depends (routine-update)
+  * Activate autopkgtest since r-cran-spelling is available now
+
+ -- Andreas Tille <tille@debian.org>  Sat, 24 Jun 2023 23:23:07 +0200
+
+r-cran-magick (2.7.3+dfsg-3) unstable; urgency=medium
+
+  * Team upload.
+  * Re-build with R 4.2.0-1
+
+ -- Nilesh Patra <nilesh@debian.org>  Sun, 01 May 2022 13:42:48 +0530
+
+r-cran-magick (2.7.3+dfsg-2) unstable; urgency=medium
+
+  * Build-Conflicts: graphicsmagick-libmagick-dev-compat,
+    libgraphicsmagick1-dev
+    Closes: #995302
+
+ -- Andreas Tille <tille@debian.org>  Fri, 01 Oct 2021 12:19:32 +0200
+
+r-cran-magick (2.7.3+dfsg-1) unstable; urgency=medium
+
+  * New upstream version
+  * Standards-Version: 4.6.0 (routine-update)
+  * dh-update-R to update Build-Depends (3) (routine-update)
+
+ -- Andreas Tille <tille@debian.org>  Wed, 15 Sep 2021 17:32:35 +0200
+
+r-cran-magick (2.6.0+dfsg-1) unstable; urgency=medium
+
+  * New upstream version
+
+ -- Andreas Tille <tille@debian.org>  Sat, 16 Jan 2021 06:56:44 +0100
+
+r-cran-magick (2.5.2+dfsg-1) unstable; urgency=medium
+
+  * New upstream version
+  * Standards-Version: 4.5.1 (routine-update)
+
+ -- Andreas Tille <tille@debian.org>  Mon, 23 Nov 2020 14:08:25 +0100
+
+r-cran-magick (2.5.0+dfsg-1) unstable; urgency=medium
+
+  * New upstream version
+
+ -- Andreas Tille <tille@debian.org>  Wed, 28 Oct 2020 11:29:45 +0100
+
+r-cran-magick (2.4.0+dfsg-1) unstable; urgency=medium
+
+  * New upstream version
+  * debhelper-compat 13 (routine-update)
+  * Add salsa-ci file (routine-update)
+  * Rules-Requires-Root: no (routine-update)
+
+ -- Andreas Tille <tille@debian.org>  Wed, 02 Sep 2020 15:24:40 +0200
+
+r-cran-magick (2.3+dfsg-1) unstable; urgency=medium
+
+  * New upstream version
+  * Standards-Version: 4.5.0 (routine-update)
+  * Set upstream metadata fields: Bug-Submit, Repository.
+
+ -- Andreas Tille <tille@debian.org>  Mon, 27 Jan 2020 11:00:22 +0100
+
+r-cran-magick (2.2+dfsg-1) unstable; urgency=medium
+
+  * New upstream version
+  * debhelper-compat 12
+  * Standards-Version: 4.4.0
+  * rename debian/tests/control.autodep8 to debian/tests/control
+  * Trim trailing whitespace.
+  * Set upstream metadata fields: Archive, Bug-Database, Repository.
+  * Drop autopkgtest for the moment as long as r-cran-spelling is not uploaded
+
+ -- Andreas Tille <tille@debian.org>  Mon, 16 Sep 2019 09:59:21 +0200
+
+r-cran-magick (2.0+dfsg-1) unstable; urgency=medium
+
+  * Initial release (closes: #916427)
+
+ -- Andreas Tille <tille@debian.org>  Fri, 14 Dec 2018 13:49:37 +0100
