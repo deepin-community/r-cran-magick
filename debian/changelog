@@ -1,3 +1,9 @@
+r-cran-magick (2.8.5+dfsg-1deepin1) unstable; urgency=medium
+
+  * Rebuild against imagemagick 7.
+
+ -- Tianyu Chen <sweetyfish@deepin.org>  Thu, 04 Sep 2025 23:21:25 +0800
+
 r-cran-magick (2.8.5+dfsg-1) unstable; urgency=medium
 
   * Team upload.
