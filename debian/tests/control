@@ -1,0 +1,12 @@
+Tests: run-unit-test
+Depends: @,
+         r-cran-av (>= 0.3),
+        r-cran-spelling,
+        r-cran-jsonlite,
+        r-cran-knitr,
+        r-cran-rmarkdown,
+        r-cran-rsvg,
+        r-cran-pdftools,
+        r-cran-ggplot2,
+        r-cran-irdisplay
+Restrictions: allow-stderr
